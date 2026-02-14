@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StreamFlix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1 class="logo">STREAMFLIX</h1>
+</header>
+
+<section class="banner">
+    <div class="banner-content">
+        <h2>Unlimited Movies, TV Shows</h2>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <button>Play</button>
+    </div>
+</section>
+
+<section class="row">
+    <h3>Trending Now</h3>
+    <div class="movies" id="movie-list"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
