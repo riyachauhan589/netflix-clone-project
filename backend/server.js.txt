@@ -1,0 +1,19 @@
+const express = require("express");
+const cors = require("cors");
+
+const app = express();
+app.use(cors());
+
+const movies = [
+    { image: "https://image.tmdb.org/t/p/w500/1.jpg" },
+    { image: "https://image.tmdb.org/t/p/w500/2.jpg" },
+    { image: "https://image.tmdb.org/t/p/w500/3.jpg" }
+];
+
+app.get("/movies", (req, res) => {
+    res.json(movies);
+});
+
+app.listen(3000, () => {
+    console.log("Server running on port 3000");
+});
